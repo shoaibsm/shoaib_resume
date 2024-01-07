@@ -5,7 +5,6 @@ import { ImLocation } from 'react-icons/im'
 import { MdEmail } from 'react-icons/md'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
-import { FaXTwitter } from 'react-icons/fa6'
 import { BiLogoInstagramAlt } from 'react-icons/bi'
 
 function Footer() {
@@ -18,28 +17,36 @@ function Footer() {
                 <div className="get-in-touch">
                     <ul className='flex'>
                         <li className='flex'>
-                            <div className="icon">
-                                <BsFillTelephoneFill />
-                            </div>
-                            <p>+91 7057866962</p>
+                            <a href="tel:+917057866962">
+                                <div className="icon">
+                                    <BsFillTelephoneFill />
+                                </div>
+                                <p>+91 7057866962</p>
+                            </a>
                         </li>
                         <li>
-                            <div className="icon">
-                                <ImLocation />
-                            </div>
-                            <p>Malegaon, Nashik 423203</p>
+                            <a href="https://www.google.com/maps/place/Malegaon, Nashik 423203" target="_blank" rel="noopener noreferrer">
+                                <div className="icon">
+                                    <ImLocation />
+                                </div>
+                                <p>Malegaon, Nashik 423203</p>
+                            </a>
                         </li>
                         <li>
-                            <div className="icon">
-                                <MdEmail />
-                            </div>
-                            <p>shoaib.sm6655@gmial.com</p>
+                            <a href="mailto:shoaib.sm6655@gmail.com">
+                                <div className="icon">
+                                    <MdEmail />
+                                </div>
+                                <p>shoaib.sm6655@gmail.com</p>
+                            </a>
                         </li>
                         <li>
-                            <div className="icon">
-                                <BsFillBriefcaseFill />
-                            </div>
-                            <p>www.shoaib_portfolio.com</p>
+                            <a href="https://shoaib-sm.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                <div className="icon">
+                                    <BsFillBriefcaseFill />
+                                </div>
+                                <p>Shoaib_Personal_Portfolio</p>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -51,26 +58,30 @@ function Footer() {
                 </div>
             </div>
             <div className="SocialProfile">
-                <ul>
+                <ul className='flex'>
                     <li className='flex'>
-                        <div className="icon">
-                            <AiFillLinkedin />
-                        </div>
+                        <a href="https://www.linkedin.com/in/shoaib-mohammed95/" target="_blank" rel="noopener noreferrer">
+                            <div className="icon">
+                                <AiFillLinkedin />
+                            </div>
+                            <p>Linkedin</p>
+                        </a>
                     </li>
                     <li>
-                        <div className="icon">
-                            <AiFillFacebook />
-                        </div>
+                        <a href="https://www.facebook.com/shoaib.mohammed.71271" target="_blank" rel="noopener noreferrer">
+                            <div className="icon">
+                                <AiFillFacebook />
+                            </div>
+                            <p>Facebook</p>
+                        </a>
                     </li>
                     <li>
-                        <div className="icon">
-                            <FaXTwitter />
-                        </div>
-                    </li>
-                    <li>
-                        <div className="icon">
-                            <BiLogoInstagramAlt />
-                        </div>
+                        <a href="https://www.instagram.com/ansari_sm70/" target="_blank" rel="noopener noreferrer">
+                            <div className="icon">
+                                <BiLogoInstagramAlt />
+                            </div>
+                            <p>Instagram</p>
+                        </a>
                     </li>
                 </ul>
             </div>

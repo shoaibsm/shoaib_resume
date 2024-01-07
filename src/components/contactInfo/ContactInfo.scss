@@ -21,13 +21,26 @@
         li {
             display: flex;
             column-gap: 10px;
+            cursor: pointer;
 
-            .icon {
-                color: #00A9FF;
+            a {
+                display: flex;
+                column-gap: 10px;
+                text-decoration: none;
+
+                .icon {
+                    color: var(--background-color);
+                }
+
+                p {
+                    color: var(--background-color);
+                }
             }
+        }
 
-            p {
-                color: aliceblue;
+        li:hover {
+            .icon {
+                color: var(--brand-color);
             }
         }
     }
