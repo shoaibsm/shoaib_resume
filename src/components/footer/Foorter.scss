@@ -6,10 +6,10 @@
     .contact-heading {
         width: 100%;
         text-align: center;
-        margin-top: 16px;
+        margin-top: 10px;
 
         .heading {
-            color: #ffffff;
+            color: var(--background-color);
         }
     }
 
@@ -19,11 +19,40 @@
         justify-content: space-between;
 
         .get-in-touch {
-            margin-left: 10px;
+            margin-left: 16px;
 
             ul {
+                list-style: none;
                 display: flex;
+                flex-direction: column;
                 align-items: flex-start;
+                row-gap: 16px;
+
+                li {
+                    display: flex;
+                    column-gap: 10px;
+                    cursor: pointer;
+
+                    a {
+                        display: flex;
+                        column-gap: 10px;
+                        text-decoration: none;
+
+                        .icon {
+                            color: var(--background-color);
+                        }
+
+                        p {
+                            color: var(--background-color);
+                        }
+                    }
+                }
+
+                li:hover {
+                    .icon {
+                        color: var(--brand-color);
+                    }
+                }
             }
         }
 
@@ -31,12 +60,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-right: 10px;
+            margin-right: 30px;
 
             .name-box {
                 .name {
                     letter-spacing: 1px;
-                    color: #ffffff;
+                    color: var(--background-color);
 
                     span {
                         color: #00A9FF;
@@ -44,7 +73,7 @@
                 }
 
                 .role {
-                    color: #ffffff;
+                    color: var(--background-color);
                 }
 
                 h4 {
@@ -71,7 +100,7 @@
                 }
 
                 p {
-                    color: aliceblue;
+                    color: var(--background-color);
                 }
             }
         }
@@ -86,12 +115,18 @@
             gap: 16px;
             padding-block: 16px;
 
-            li {
+            a {
+                display: flex;
+                column-gap: 10px;
+                text-decoration: none;
+
                 .icon {
-                    font-size: 0.9rem;
                     color: var(--background-color);
                 }
 
+                p {
+                    color: var(--background-color);
+                }
             }
         }
     }

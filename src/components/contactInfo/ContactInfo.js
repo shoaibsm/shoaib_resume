@@ -13,28 +13,36 @@ function ContactInfo() {
             <hr className='horizontal-rol' />
             <ul className='flex'>
                 <li className='flex'>
-                    <div className="icon">
-                        <BsFillTelephoneFill />
-                    </div>
-                    <p>+91 7057866962</p>
+                    <a href="tel:+917057866962">
+                        <div className="icon">
+                            <BsFillTelephoneFill />
+                        </div>
+                        <p>+91 7057866962</p>
+                    </a>
                 </li>
                 <li>
-                    <div className="icon">
-                        <ImLocation />
-                    </div>
-                    <p>Malegaon, Nashik 423203</p>
+                    <a href="https://www.google.com/maps/place/Malegaon, Nashik 423203" target="_blank" rel="noopener noreferrer">
+                        <div className="icon">
+                            <ImLocation />
+                        </div>
+                        <p>Malegaon, Nashik 423203</p>
+                    </a>
                 </li>
                 <li>
-                    <div className="icon">
-                        <MdEmail />
-                    </div>
-                    <p>shoaib.sm6655@gmial.com</p>
+                    <a href="mailto:shoaib.sm6655@gmail.com">
+                        <div className="icon">
+                            <MdEmail />
+                        </div>
+                        <p>shoaib.sm6655@gmail.com</p>
+                    </a>
                 </li>
                 <li>
-                    <div className="icon">
-                        <BsFillBriefcaseFill />
-                    </div>
-                    <p>www.shoaib_portfolio.com</p>
+                    <a href="https://shoaib-sm.onrender.com/" target="_blank" rel="noopener noreferrer">
+                        <div className="icon">
+                            <BsFillBriefcaseFill />
+                        </div>
+                        <p>Shoaib_Personal_Portfolio</p>
+                    </a>
                 </li>
             </ul>
         </div>
