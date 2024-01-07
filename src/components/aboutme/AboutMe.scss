@@ -1,0 +1,22 @@
+.AboutMe {
+    width: 100%;
+
+    .about-me-heading {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+
+        .heading {
+            color: #ffffff;
+        }
+    }
+
+    .about-me-desc {
+        width: 100%;
+
+        .about-me {
+            text-align: left;
+            color: aliceblue;
+        }
+    }
+}

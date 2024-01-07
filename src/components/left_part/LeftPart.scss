@@ -1,0 +1,35 @@
+.Left-Side {
+    width: 33%;
+    height: 100%;
+    padding-inline: 0.9rem;
+    background-color: #1b263b;
+    border-right: 3px solid #B91C1C;
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            margin-block: 30px;
+            border-radius: 50%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        width: 100%;
+        border-right: none;
+
+        .AboutMe {
+            padding-bottom: 16px;
+        }
+
+        .ContactInfo,
+        .SocialProfile {
+            display: none;
+        }
+    }
+}

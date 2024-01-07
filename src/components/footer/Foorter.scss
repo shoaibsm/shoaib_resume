@@ -1,0 +1,98 @@
+.Footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: none;
+
+    .contact-heading {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+
+        .heading {
+            color: #ffffff;
+        }
+    }
+
+    .ContactInfo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .get-in-touch {
+            margin-left: 10px;
+
+            ul {
+                display: flex;
+                align-items: flex-start;
+            }
+        }
+
+        .profile-name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+
+            .name-box {
+                .name {
+                    letter-spacing: 1px;
+                    color: #ffffff;
+
+                    span {
+                        color: #00A9FF;
+                    }
+                }
+
+                .role {
+                    color: #ffffff;
+                }
+
+                h4 {
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-items: center;
+            row-gap: 8px;
+
+            li {
+                display: flex;
+                column-gap: 10px;
+
+                .icon {
+                    font-size: 0.9rem;
+                    color: var(--background-color);
+                }
+
+                p {
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+
+    .SocialProfile {
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            padding-block: 16px;
+
+            li {
+                .icon {
+                    font-size: 0.9rem;
+                    color: var(--background-color);
+                }
+
+            }
+        }
+    }
+}

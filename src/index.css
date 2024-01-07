@@ -1,13 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--brand-color: #00A9FF;
+	--primary-color: #212529;
+	/* Main brand color */
+	--secondary-color: #343A40;
+	/* Secondary color */
+	--accent-color: #495057;
+	/* Accent color */
+	--background-color: #ffffff;
+	/* Background color */
+	--text-color: #3A3A47;
+	/* Main text color */
+	--border-color: #CCCCCC;
+	/* Border color */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.horizontal-rol {
+	width: 100%;
+	height: 0.5px;
+	background-color: var(--background-color);
+	border: none;
+	margin-block: 8px;
+}
+
+p,
+li {
+	color: var(--text-color);
+	font-size: 0.7rem;
+	line-height: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--text-color);
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+h3 {
+	font-size: 0.8rem;
+}
+
+ul {
+	list-style: none;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+}
+
+.icon {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--primary-color);
+}
+
+.rule {
+	width: 80%;
+	height: 0.5px;
+	background-color: var(--background-color);
+	margin: 8px auto;
+	border: none;
+	margin-block: 8px;
 }

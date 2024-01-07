@@ -1,0 +1,28 @@
+.Education {
+    .education-heading {}
+
+    .education-box {
+        margin-left: 25px;
+
+        ul {
+            display: flex;
+            row-gap: 4px;
+            align-items: flex-start;
+            flex-direction: column;
+
+            li {
+                .collage-desc {
+                    .degree {
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                    }
+
+                    .collage-name {
+                        font-size: 0.7rem;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

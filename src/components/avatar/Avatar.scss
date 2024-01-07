@@ -1,0 +1,42 @@
+.Avatar {
+    .img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            margin-block: 30px;
+            border-radius: 50%;
+        }
+    }
+
+    .name-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+
+        .name-box {
+            .name {
+                letter-spacing: 1px;
+                color: #ffffff;
+
+                span {
+                    color: #00A9FF;
+                }
+            }
+
+            .role {
+                color: #ffffff;
+            }
+
+            h4 {
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

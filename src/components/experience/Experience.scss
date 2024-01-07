@@ -1,0 +1,90 @@
+.Experience {
+    width: 100%;
+    // padding-top: 50px;
+    // margin-bottom: 20px;
+
+    .experience-heading {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+    }
+
+    .rule {
+        width: 80%;
+        height: 0.5px;
+        background-color: var(--primary-color);
+        margin: 8px auto;
+        border: none;
+        margin-block: 8px;
+    }
+
+    .experience-container {
+        width: 100%;
+
+        .company {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+
+            .company-title {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 4px;
+
+                .company-icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .company-name {
+                    font-weight: 600;
+                }
+            }
+
+            .job-title {
+                width: 60%;
+                // padding: 8px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                background: linear-gradient(to right, rgba(108, 117, 125, .1), transparent 60%);
+                margin-left: 16px;
+
+                .job-title-icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .job-profile {
+                    font-weight: 600;
+                }
+            }
+
+            .job-summary {
+                margin-left: 50px;
+            }
+
+            .job-desc-heading {
+                margin-left: 16px;
+                font-weight: bold;
+            }
+
+            .job-desc {
+                margin-left: 50px;
+                padding-bottom: 8px;
+
+                li {
+                    padding-block: 2px;
+                }
+            }
+
+            .bottom-summary {
+                margin-left: 50px;
+            }
+        }
+    }
+}
