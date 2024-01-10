@@ -1,6 +1,7 @@
 import React from 'react'
 import './SocialProfile.scss'
 import { AiFillLinkedin } from 'react-icons/ai'
+import { FaGithub } from "react-icons/fa";
 import { AiFillFacebook } from 'react-icons/ai'
 import { BiLogoInstagramAlt } from 'react-icons/bi'
 
@@ -21,6 +22,16 @@ function SocialProfile() {
                         <p>Linkedin</p>
                     </a>
                 </li>
+
+                <li className='flex'>
+                    <a href="https://github.com/shoaibsm" target="_blank" rel="noopener noreferrer">
+                        <div className="icon">
+                            <FaGithub />
+                        </div>
+                        <p>Github</p>
+                    </a>
+                </li>
+
                 <li>
                     <a href="https://www.facebook.com/shoaib.mohammed.71271" target="_blank" rel="noopener noreferrer">
                         <div className="icon">
