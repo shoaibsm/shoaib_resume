@@ -27,6 +27,8 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	overflow-x: hidden;
 }
 
 code {
@@ -56,6 +58,7 @@ h4,
 h5,
 h6 {
 	color: var(--text-color);
+	font-weight: normal;
 }
 
 h2 {

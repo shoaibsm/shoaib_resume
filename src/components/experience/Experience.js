@@ -56,9 +56,6 @@ function Experience() {
                     <p className='job-summary'>
                         As an IBS Engineer at Micratel Solutions, I led the optimization of wireless communication systems using iBwave Design software. My role involved planning and implementing in-building solutions, deploying DAS, small cells, and repeaters for precise equipment placement. Leveraging iBwave's simulation tools, I ensured reliable network performance, aligning with Micratel's commitment to robust in-building wireless network design.
                     </p>
-                    {/* <p className='bottom-summary'>
-                        Using my hands-on experience with iBwave Design software, I carefully planned and implemented in-building solutions. Skilled in deploying distributed antenna systems (DAS), small cells, and repeaters, I contributed to the precise placement of equipment and the effective optimization of coverage. By using iBwave's simulation tools, I ensured reliable network performance and seamless connectivity. This position not only showcased my expertise in telecommunications but also perfectly aligned with Micratel Solutions' dedication to delivering strong solutions in in-building wireless network design.
-                    </p> */}
                 </div>
                 <hr className='rule' />
                 <div className="company">
@@ -77,9 +74,6 @@ function Experience() {
                     <p className='job-summary'>
                         At Vedang Cellular Services, I served as a key IBS Engineer, optimizing wireless communication systems in diverse structures. Specializing in telecommunications, I design and implement wireless solutions, deploying DAS, small cells, and repeaters for enhanced coverage. Known for troubleshooting and maintaining in-building networks seamlessly integrated with outdoor cellular systems, meeting connectivity demands in diverse environments.
                     </p>
-                    {/* <p className='bottom-summary'>
-                        In-Building Solutions (IBS) Engineer with a background in telecommunications, specializing in designing and implementing wireless communication systems within various structures. Experienced in deploying distributed antenna systems (DAS), small cells, and repeaters to optimize coverage and capacity. Proven ability to troubleshoot and maintain in-building networks, ensuring seamless integration with outdoor cellular systems. Adept at meeting connectivity demands in diverse environments.
-                    </p> */}
                 </div>
             </div>
         </div>
