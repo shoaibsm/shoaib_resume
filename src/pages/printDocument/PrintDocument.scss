@@ -1,21 +1,20 @@
-.Resume {
-    // width: 100%;
+.PrintDocument {
+    width: 67%;
+    margin-inline: auto;
     display: flex;
     justify-content: center;
+    padding-block: 4px;
 
-    background-color: blue;
-
-    .resume-box {
-        // width: 67%;
-        display: flex;
-        justify-content: center;
+    .resume-content {
+        width: 100%;
     }
 
     .cv-btn {
         position: fixed;
         right: 20px;
         bottom: 20px;
-        background-color: var(--background-color);
+        // background-color: var(--background-color);
+        background-color: #edf2f4;
         border-radius: 15px;
         padding: 7px 15px;
         cursor: pointer;
@@ -26,8 +25,10 @@
         .btn-text {
             font-size: 0.6rem;
             letter-spacing: 1px;
-            color: var(--text-color);
+            color: var(--brand-color);
         }
+
+
 
         &:hover {
             background-color: #DEE2E6;
@@ -36,19 +37,6 @@
         &:active {
             background-color: var(--background-color);
         }
-    }
 
-    @media only screen and (max-width: 576px) {
-        .resume-box {
-            width: 100%;
-        }
-
-        .cv-btn {
-            padding: 3px 8px;
-
-            .btn-text {
-                font-size: 0.4rem;
-            }
-        }
     }
 }

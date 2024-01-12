@@ -6,7 +6,7 @@ import Education from '../education/Education';
 
 function RightPart() {
     return (
-        <div className='Right-Side'>
+        <div className='RightPart'>
             <SoftSkills />
             <hr className='rule' />
             <Experience />
