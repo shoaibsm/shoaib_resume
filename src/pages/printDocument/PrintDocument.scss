@@ -1,16 +1,15 @@
 .PrintDocument {
     width: 67%;
-    // width: 100%;
     margin-inline: auto;
     display: flex;
     justify-content: center;
     padding-block: 4px;
 
-    .resume-content {
+    .PrintDocument__resumeContent {
         width: 100%;
     }
 
-    .cv-btn {
+    .PrintDocument__cv-btn {
         position: fixed;
         right: 20px;
         bottom: 20px;
@@ -23,7 +22,7 @@
         box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
         transition: background-color 0.2s ease-in-out;
 
-        .btn-text {
+        .PrintDocument__btnText {
             font-size: 0.6rem;
             letter-spacing: 1px;
             color: var(--brand-color);

@@ -1,8 +1,7 @@
 import React from 'react'
 import './PrintDocument.scss'
-import Resume from '../Resume'
 import html2pdf from 'html2pdf.js';
-import RightPart from '../../components/right_part/RightPart';
+import Resume from '../resume/Resume';
 
 function PrintDocument() {
 
@@ -24,14 +23,14 @@ function PrintDocument() {
     };
 
     return (
-        <div className='PrintDocument'>
-            <div className="resume-content" id="page-content">
+        <section className='PrintDocument'>
+            <div className="PrintDocument__resumeContent" id="page-content">
                 <Resume />
             </div>
-            <div className="cv-btn" onClick={printDocument}>
-                <p className='btn-text'>Download CV</p>
+            <div className="PrintDocument__cv-btn" onClick={printDocument}>
+                <p className='PrintDocument__btnText'>Download CV</p>
             </div>
-        </div>
+        </section>
     )
 }
 

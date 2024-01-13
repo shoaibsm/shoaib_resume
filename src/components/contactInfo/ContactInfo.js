@@ -6,11 +6,11 @@ import { MdEmail } from 'react-icons/md'
 
 function ContactInfo() {
     return (
-        <div className="ContactInfo">
-            <div className="contact-heading">
-                <h2 className='heading'>Get in Touch </h2>
+        <section className="ContactInfo">
+            <div className="ContactInfo__heading">
+                <h2 className='ContactInfo__headingText'>Get in Touch </h2>
             </div>
-            <hr className='horizontal-rol' />
+            <hr className='ContactInfo__rule rule' />
             <ul className='flex'>
                 <li className='flex'>
                     <a href="tel:+917057866962">
@@ -45,7 +45,7 @@ function ContactInfo() {
                     </a>
                 </li>
             </ul>
-        </div>
+        </section>
     )
 }
 

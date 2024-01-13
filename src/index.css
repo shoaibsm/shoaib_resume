@@ -88,7 +88,6 @@ ul {
 }
 
 .rule {
-	width: 80%;
 	height: 0.5px;
 	background-color: var(--background-color);
 	margin: 8px auto;

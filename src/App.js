@@ -1,10 +1,9 @@
-import Resume from './pages/Resume';
+import './App.css'
 import PrintDocument from './pages/printDocument/PrintDocument';
 
 function App() {
 	return (
 		<div className="App">
-			{/* <Resume /> */}
 			<PrintDocument />
 		</div>
 	);

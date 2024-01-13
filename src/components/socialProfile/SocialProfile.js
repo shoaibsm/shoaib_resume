@@ -7,11 +7,11 @@ import { BiLogoInstagramAlt } from 'react-icons/bi'
 
 function SocialProfile() {
     return (
-        <div className="SocialProfile">
-            <div className="social-heading">
-                <h2 className='heading'>Social Profiles</h2>
+        <section className="SocialProfile">
+            <div className="SocialProfile__heading">
+                <h2 className='SocialProfile__headingText'>Social Profiles</h2>
             </div>
-            <hr className='horizontal-rol' />
+            <hr className='rule' />
 
             <ul className='flex'>
                 <li className='flex'>
@@ -49,7 +49,7 @@ function SocialProfile() {
                     </a>
                 </li>
             </ul>
-        </div>
+        </section>
     )
 }
 

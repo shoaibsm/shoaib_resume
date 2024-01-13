@@ -3,22 +3,22 @@
     background-color: var(--primary-color);
     display: none;
 
-    .contact-heading {
+    .Footer__contactHeading {
         width: 100%;
         text-align: center;
         margin-top: 10px;
 
-        .heading {
+        .Footer__headingText {
             color: var(--background-color);
         }
     }
 
-    .ContactInfo {
+    .Footer__ContactInfo {
         width: 100%;
         display: flex;
         justify-content: space-between;
 
-        .get-in-touch {
+        .Footer__getInTouch {
             margin-left: 16px;
 
             ul {
@@ -56,14 +56,14 @@
             }
         }
 
-        .profile-name {
+        .Footer__profileName {
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 16px;
 
-            .name-box {
-                .name {
+            .Footer__nameContainer {
+                .Footer__nameText {
                     letter-spacing: 1px;
                     color: var(--background-color);
 
@@ -106,7 +106,7 @@
         }
     }
 
-    .SocialProfile {
+    .Footer__socialProfile {
         ul {
             display: flex;
             flex-direction: row;

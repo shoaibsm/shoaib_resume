@@ -1,14 +1,18 @@
 .ContactInfo {
     width: 100%;
 
-    .contact-heading {
+    .ContactInfo__heading {
         width: 100%;
         text-align: center;
         margin-top: 16px;
 
-        .heading {
+        .ContactInfo__headingText {
             color: #ffffff;
         }
+    }
+
+    .ContactInfo__rule {
+        width: 100%;
     }
 
     ul {

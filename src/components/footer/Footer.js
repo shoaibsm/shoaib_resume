@@ -9,12 +9,12 @@ import { BiLogoInstagramAlt } from 'react-icons/bi'
 
 function Footer() {
     return (
-        <div className='Footer'>
-            <div className="contact-heading">
-                <h2 className='heading'>Get in Touch </h2>
+        <footer className='Footer'>
+            <div className="Footer__contactHeading">
+                <h2 className='Footer__headingText'>Get in Touch </h2>
             </div>
-            <div className="ContactInfo">
-                <div className="get-in-touch">
+            <section className="Footer__ContactInfo">
+                <div className="Footer__getInTouch">
                     <ul className='flex'>
                         <li className='flex'>
                             <a href="tel:+917057866962">
@@ -50,14 +50,14 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="profile-name">
-                    <div className="name-box">
-                        <h2 className="name"><span>Shoaib</span> Mohammed</h2>
+                <div className="Footer__profileName">
+                    <div className="Footer__nameContainer">
+                        <h2 className="Footer__nameText"><span>Shoaib</span> Mohammed</h2>
                         <p className='role'>MERN Stack Developer</p>
                     </div>
                 </div>
-            </div>
-            <div className="SocialProfile">
+            </section>
+            <section className="Footer__socialProfile">
                 <ul className='flex'>
                     <li className='flex'>
                         <a href="https://www.linkedin.com/in/shoaib-mohammed95/" target="_blank" rel="noopener noreferrer">
@@ -84,8 +84,8 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </section>
+        </footer>
     )
 }
 

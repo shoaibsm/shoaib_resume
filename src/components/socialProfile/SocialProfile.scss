@@ -1,10 +1,10 @@
 .SocialProfile {
-    .social-heading {
+    .SocialProfile__heading {
         width: 100%;
         text-align: center;
         margin-top: 16px;
 
-        .heading {
+        .SocialProfile__headingText {
             color: var(--background-color);
         }
     }

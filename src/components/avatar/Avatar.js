@@ -4,17 +4,17 @@ import profileImg from '../../assets/profile.jpg'
 
 function Avatar() {
     return (
-        <div className='Avatar'>
-            <div className="img-container">
-                <img className='profile-img' src={profileImg} alt="" />
+        <section className='Avatar'>
+            <div className="Avatar__imgContainer">
+                <img className='Avatar__profileImg' src={profileImg} alt="profile_image" />
             </div>
-            <div className="name-container">
-                <div className="name-box">
-                    <h2 className="name"><span>Shoaib</span> Mohammed</h2>
-                    <p className='role'>MERN Stack Developer</p>
+            <div className="Avatar__nameContainer">
+                <div className="Avatar__nameBox">
+                    <h2 className="Avatar__name"><span>Shoaib</span> Mohammed</h2>
+                    <p className='Avatar__role'>MERN Stack Developer</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

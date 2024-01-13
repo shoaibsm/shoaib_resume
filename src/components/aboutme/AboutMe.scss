@@ -1,12 +1,12 @@
 .AboutMe {
     width: 100%;
 
-    .about-me-heading {
+    .AboutMe__heading {
         width: 100%;
         text-align: center;
         margin-top: 16px;
 
-        .heading {
+        .AboutMe__headingText {
             color: #ffffff;
         }
     }
@@ -15,10 +15,10 @@
         width: 40%;
     }
 
-    .about-me-desc {
+    .AboutMe__desc {
         width: 100%;
 
-        .about-me {
+        .AboutMe__text {
             text-align: left;
             color: aliceblue;
         }

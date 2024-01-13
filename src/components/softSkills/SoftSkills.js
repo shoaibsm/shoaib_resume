@@ -5,11 +5,11 @@ import { MdPlayArrow } from "react-icons/md";
 function SoftSkills() {
     return (
         <div className="SoftSkills">
-            <div className="skills">
-                <h2 className="skills-heading">MERN Stack Skills</h2>
+            <div className="SoftSkills__skills">
+                <h2 className="SoftSkills__headingText">MERN Stack Skills</h2>
                 <ul>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -17,7 +17,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -27,7 +27,7 @@ function SoftSkills() {
 
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -45,7 +45,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -53,7 +53,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -63,11 +63,11 @@ function SoftSkills() {
                 </ul>
             </div>
 
-            <div className="skills">
-                <h2 className="skills-heading">Frontend Skills</h2>
+            <div className="SoftSkills__skills">
+                <h2 className="SoftSkills__headingText">Frontend Skills</h2>
                 <ul>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -75,7 +75,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -83,7 +83,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -92,7 +92,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
@@ -101,7 +101,7 @@ function SoftSkills() {
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>

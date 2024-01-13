@@ -7,7 +7,7 @@ import SocialProfile from '../socialProfile/SocialProfile'
 
 function LeftPart() {
     return (
-        <div className='Left-Side'>
+        <div className='LeftPart'>
             <Avatar />
             <AboutMe />
             <ContactInfo />

@@ -1,12 +1,11 @@
 .SoftSkills {
-    // margin-top: 16px;
 
-    .skills {
+    .SoftSkills__skills {
         ul {
             margin-left: 30px;
         }
 
-        .skill-box {
+        .SoftSkills__skillBox {
             display: flex;
             align-items: center;
             gap: 6px;

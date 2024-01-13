@@ -1,7 +1,9 @@
 .Education {
-    .education-heading {}
+    .Education__heading {
+        user-select: none;
+    }
 
-    .education-box {
+    .Education__content {
         margin-left: 25px;
 
         ul {
@@ -11,13 +13,13 @@
             flex-direction: column;
 
             li {
-                .collage-desc {
-                    .degree {
+                .Education__collageDesc {
+                    .Education__degree {
                         font-size: 0.8rem;
                         font-weight: 600;
                     }
 
-                    .collage-name {
+                    .Education__collageName {
                         font-size: 0.7rem;
                         margin-left: 8px;
                     }

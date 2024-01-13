@@ -1,50 +1,50 @@
 .Experience {
     width: 100%;
-    // padding-top: 50px;
-    // margin-bottom: 20px;
 
-    .experience-heading {
+    .Experience__heading {
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 4px;
     }
 
-    .rule {
-        width: 80%;
-        height: 0.5px;
-        background-color: var(--primary-color);
-        margin: 8px auto;
-        border: none;
-        margin-block: 8px;
-    }
 
-    .experience-container {
+
+    .Experience__container {
         width: 100%;
 
-        .company {
+        .rule {
+            width: 80%;
+            height: 0.5px;
+            background-color: var(--primary-color);
+            margin: 8px auto;
+            border: none;
+            margin-block: 8px;
+        }
+
+        .Experience__companyContent {
             width: 100%;
             display: flex;
             flex-direction: column;
             row-gap: 2px;
 
-            .company-title {
+            .Experience__companyTitle {
                 display: flex;
                 align-items: center;
                 gap: 8px;
                 margin-bottom: 4px;
 
-                .company-icon {
+                .Experience__companyIcon {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
 
-                .company-name {
+                .Experience__companyName {
                     font-weight: 600;
                 }
             }
 
-            .job-title {
+            .Experience__jobTitle {
                 width: 60%;
                 // padding: 8px;
                 display: flex;
@@ -53,27 +53,27 @@
                 background: linear-gradient(to right, rgba(108, 117, 125, .1), transparent 60%);
                 margin-left: 16px;
 
-                .job-title-icon {
+                .Experience__jobTitleIcon {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
 
-                .job-profile {
+                .Experience__jobProfile {
                     font-weight: 600;
                 }
             }
 
-            .job-summary {
+            .Experience__jobSummary {
                 margin-left: 50px;
             }
 
-            .job-desc-heading {
+            .Experience__jobDescHeading {
                 margin-left: 16px;
                 font-weight: 500;
             }
 
-            .job-desc {
+            .Experience__jobDesc {
                 margin-left: 50px;
                 padding-bottom: 8px;
 
@@ -82,7 +82,7 @@
                 }
             }
 
-            .bottom-summary {
+            .Experience__bottomSummary {
                 margin-left: 50px;
             }
         }
