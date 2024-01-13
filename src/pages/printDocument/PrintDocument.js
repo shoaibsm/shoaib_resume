@@ -2,6 +2,7 @@ import React from 'react'
 import './PrintDocument.scss'
 import Resume from '../Resume'
 import html2pdf from 'html2pdf.js';
+import RightPart from '../../components/right_part/RightPart';
 
 function PrintDocument() {
 
@@ -9,7 +10,7 @@ function PrintDocument() {
         const element = document.getElementById('page-content'); // The ID of the HTML content you want to convert
         const options = {
             margin: 2,
-            filename: 'myfile.pdf',
+            filename: 'shoaib_mresume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 3 },
             jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },

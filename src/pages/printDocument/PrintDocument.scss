@@ -1,5 +1,6 @@
 .PrintDocument {
     width: 67%;
+    // width: 100%;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -13,10 +14,10 @@
         position: fixed;
         right: 20px;
         bottom: 20px;
-        // background-color: var(--background-color);
         background-color: #edf2f4;
         border-radius: 15px;
         padding: 7px 15px;
+        user-select: none;
         cursor: pointer;
 
         box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
@@ -28,8 +29,6 @@
             color: var(--brand-color);
         }
 
-
-
         &:hover {
             background-color: #DEE2E6;
         }
@@ -38,5 +37,10 @@
             background-color: var(--background-color);
         }
 
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        width: 100%;
     }
 }
