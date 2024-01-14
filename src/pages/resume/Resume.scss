@@ -10,18 +10,10 @@
     }
 
     @media only screen and (max-width: 576px) {
-        .resume-box {
+        .Resume__resumeContainer {
             width: 100%;
             flex-direction: column;
             background-color: orange;
-        }
-
-        .cv-btn {
-            padding: 3px 8px;
-
-            .btn-text {
-                font-size: 0.4rem;
-            }
         }
     }
 }
