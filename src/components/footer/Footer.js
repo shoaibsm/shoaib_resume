@@ -1,5 +1,5 @@
 import React from 'react'
-import './Foorter.scss'
+import './Footer.scss'
 import { BsFillBriefcaseFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation } from 'react-icons/im'
 import { MdEmail } from 'react-icons/md'

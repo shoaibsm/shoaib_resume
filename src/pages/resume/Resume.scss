@@ -1,12 +1,29 @@
 .Resume {
     display: flex;
     justify-content: center;
+    position: relative;
 
     background-color: blue;
 
     .Resume__resumeContainer {
         display: flex;
         justify-content: center;
+    }
+
+    .ContactInfo__gitLinkText {
+        color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        padding-top: 8px;
+        font-style: italic;
+        position: absolute;
+        left: 8px;
+        bottom: 4px;
+
+        a {
+            text-decoration: none;
+            color: var(--brand-color);
+        }
     }
 
     @media only screen and (max-width: 576px) {

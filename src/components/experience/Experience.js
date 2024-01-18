@@ -4,6 +4,7 @@ import { FaBuilding } from "react-icons/fa";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 
 function Experience() {
+
     return (
         <section className='Experience'>
             <h2 className='Experience__heading'>Experience</h2>

@@ -12,6 +12,7 @@ function LeftPart() {
             <AboutMe />
             <ContactInfo />
             <SocialProfile />
+
         </div>
     )
 }

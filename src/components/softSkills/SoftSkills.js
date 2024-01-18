@@ -24,7 +24,6 @@ function SoftSkills() {
                             <p>Node.js: Server-side JavaScript for scalable applications.</p>
 
                         </div>
-
                     </li>
                     <li>
                         <div className="SoftSkills__skillBox">
@@ -32,16 +31,14 @@ function SoftSkills() {
                                 <MdPlayArrow />
                             </div>
                             <p>MongoDB: NoSQL database for flexible and scalable data storage.</p>
-
                         </div>
                     </li>
                     <li>
-                        <div className="skill-box">
+                        <div className="SoftSkills__skillBox">
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
                             <p>JavaScript (ES6+): Writing modern, efficient, and modular code.</p>
-
                         </div>
                     </li>
                     <li>

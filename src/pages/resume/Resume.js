@@ -12,6 +12,7 @@ function Resume() {
                 <LeftPart />
                 <RightPart />
                 <Footer />
+                <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">click here</a></p>
             </div>
         </section>
     )

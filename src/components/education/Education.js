@@ -12,14 +12,14 @@ function Education() {
                 <h2>Education</h2>
             </div>
             <div className="Education__content">
-                <ul>
-                    <li>
+                <ul className='Education__list'>
+                    <li className='Education__item'>
                         <div className="Education__collageDesc">
                             <p className='Education__degree'>Electronics and Telecommunication | 2015</p>
                             <p className='Education__collageName'>Dilkap Reseach Institiute of Engineering, Mumbai</p>
                         </div>
                     </li>
-                    <li>
+                    <li className='Education__item'>
                         <div className="Education__collageDesc ">
                             <p className='Education__degree'>Electronics and Telecommunication | 2012</p>
                             <p className='Education__collageName'>K.B.H Polytechnic, Malegoan, Nashik</p>
