@@ -24,7 +24,7 @@ function SocialProfile() {
                 </li>
 
                 <li className='flex'>
-                    <a href="https://github.com/shoaibsm" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/shoaibsm/shoaib_resume" target="_blank" rel="noopener noreferrer">
                         <div className="icon">
                             <FaGithub />
                         </div>

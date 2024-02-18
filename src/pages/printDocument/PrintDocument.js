@@ -9,16 +9,26 @@ function PrintDocument() {
         const element = document.getElementById('page-content'); // The ID of the HTML content you want to convert
         const options = {
             margin: 2,
-            filename: 'shoaib_mresume.pdf',
+            filename: 'shoaib_resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 3 },
             jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
             pagebreak: { mode: ['css', 'legacy'] }
         };
 
-        // New Promise-based usage:
         html2pdf().set(options).from(element).toPdf().get('pdf').then(function (pdf) {
-            window.open(pdf.output('bloburl')); // to open in new tab
+            const blob = new Blob([pdf], { type: 'application/pdf' });
+            const url = URL.createObjectURL(blob);
+
+            // Create an anchor tag and trigger a click event to open the PDF in a new tab
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank'; // Open in a new tab
+            a.download = 'shoaib_resume.pdf'; // Set the desired filename
+            a.click();
+
+            // Cleanup
+            URL.revokeObjectURL(url);
         });
     };
 
