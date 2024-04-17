@@ -23,7 +23,7 @@ function Experience() {
                         <p className='Experience__jobProfile'>Software Engineer | Jan 2022 - Present</p>
                     </div>
                     <p className='Experience__jobSummary'>
-                        As a Full Stack Developer at Company Name, I played a key role in building robust and scalable web applications using the MERN stack.
+                        As a Full Stack Developer at Cablesmith, I played a key role in building robust and scalable web applications using the MERN stack.
                     </p>
                     <p className='Experience__jobDescHeading'>My responsibilities included:</p>
                     <ul className='Experience__jobDesc'>
