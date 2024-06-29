@@ -20,7 +20,7 @@ function Experience() {
                         <div className="Experience__jobTitleIcon">
                             <BsFillBriefcaseFill className='icon' />
                         </div>
-                        <p className='Experience__jobProfile'>Software Engineer | Jan 2022 - Present</p>
+                        <p className='Experience__jobProfile'>Software Engineer | April 2021 - Present</p>
                     </div>
                     <p className='Experience__jobSummary'>
                         As a Full Stack Developer at Cablesmith, I played a key role in building robust and scalable web applications using the MERN stack.
@@ -51,7 +51,7 @@ function Experience() {
                         <div className="Experience__jobTitleIcon">
                             <BsFillBriefcaseFill className='icon' />
                         </div>
-                        <p className='Experience__jobProfile'>Network Design | Sep 2017 - Dec 2021</p>
+                        <p className='Experience__jobProfile'>Network Design | Sep 2017 - March 2021</p>
                     </div>
                     <p className='Experience__jobSummary'>
                         As an IBS Engineer at Micratel Solutions, I led the optimization of wireless communication systems using iBwave Design software. My role involved planning and implementing in-building solutions, deploying DAS, small cells, and repeaters for precise equipment placement. Leveraging iBwave's simulation tools, I ensured reliable network performance, aligning with Micratel's commitment to robust in-building wireless network design.
