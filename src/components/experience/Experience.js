@@ -47,13 +47,9 @@ function Experience() {
 
                     <p className='Experience__jobDescHeading'>Telecom Responsibilities:</p>
                     <ul className='Experience__jobDesc'>
-                        <li>Collaborating with cross-functional teams to gather and define project requirements.</li>
-                        <li>Designing and implementing RESTful APIs using Node.js and Express.js for seamless communication between the frontend and backend.</li>
-                        <li>Developing dynamic and responsive user interfaces using React.js, ensuring an optimal user experience across devices.</li>
-                        <li>Integrating MongoDB databases to store and manage application data efficiently.</li>
-                        <li>Implementing authentication and authorization mechanisms to enhance the security of the applications.</li>
-                        <li>Optimizing application performance and addressing any scalability issues.</li>
-                        <li>Conducting code reviews and providing constructive feedback to maintain code quality and standards.</li>
+                        <li>Designed and optimized optical fiber networks to improve efficiency and connectivity.</li>
+                        <li>Provided technical expertise and support for optical fiber switch automation.</li>
+                        <li>Design In-Building cellular network on iBwave tool.</li>
                     </ul>
 
                     <p className='Experience__bottomSummary'>
