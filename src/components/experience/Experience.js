@@ -20,17 +20,12 @@ function Experience() {
                         <div className="Experience__jobTitleIcon">
                             <BsFillBriefcaseFill className='icon' />
                         </div>
-                        <p className='Experience__jobProfile'>Software Engineer | Jan 2022 - Present</p>
+                        <p className='Experience__jobProfile'>Software Engineer | April 2021 - Present</p>
                     </div>
                     <p className='Experience__jobSummary'>
-                        At Cablesmith, along with my telecom experience, I have experience as a Full Stack Developer, significantly contributing to the development of robust and scalable web applications using the MERN stack.
+                        At Cablesmith, I have worked as a Full Stack Developer, significantly contributing to the development of robust and scalable web applications using the MERN stack, alongside my telecom experience.
                     </p>
-                    <p className='Experience__jobDescHeading'>Telecom Responsibilities:</p>
-                    <ul className='Experience__jobDesc'>
-                        <li>Designed and optimized optical fiber networks to improve efficiency and connectivity.</li>
-                        <li>Provided technical expertise and support for optical fiber switch automation.</li>
-                        <li>Led IBS maintenance projects, ensuring high-quality service for Airtel.</li>
-                    </ul>
+
                     <p className='Experience__jobDescHeading'>Software Development Responsibilities (1.5 years):</p>
                     <ul className='Experience__jobDesc'>
                         <li>Designed and implemented RESTful APIs using Node.js and Express.js for seamless communication between the frontend and backend.</li>
@@ -49,12 +44,22 @@ function Experience() {
 
                         <li> Developed an interactive tool for designing optical fiber networks using Google Maps API. Users can register and create designs directly on the map. Technologies used: MongoDB, Express.js, React.js, Node.js, Google Maps API.</li>
                     </ul>
+
+                    <p className='Experience__jobDescHeading'>Telecom Responsibilities:</p>
+                    <ul className='Experience__jobDesc'>
+                        <li>Collaborating with cross-functional teams to gather and define project requirements.</li>
+                        <li>Designing and implementing RESTful APIs using Node.js and Express.js for seamless communication between the frontend and backend.</li>
+                        <li>Developing dynamic and responsive user interfaces using React.js, ensuring an optimal user experience across devices.</li>
+                        <li>Integrating MongoDB databases to store and manage application data efficiently.</li>
+                        <li>Implementing authentication and authorization mechanisms to enhance the security of the applications.</li>
+                        <li>Optimizing application performance and addressing any scalability issues.</li>
+                        <li>Conducting code reviews and providing constructive feedback to maintain code quality and standards.</li>
+                    </ul>
+
                     <p className='Experience__bottomSummary'>
                         Through these experiences, I honed my skills in telecom network design and MERN stack technologies, contributing to the successful delivery of high-quality software solutions and innovative network designs.
                     </p>
                 </div>
-                {/* ---------------------------------------- */}
-
                 <hr className='rule' />
                 <div className="Experience__companyContent">
                     <div className="Experience__companyTitle">

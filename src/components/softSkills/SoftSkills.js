@@ -38,14 +38,6 @@ function SoftSkills() {
                             <div className="icon">
                                 <MdPlayArrow />
                             </div>
-                            <p>JavaScript (ES6+): Writing modern, efficient, and modular code.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="SoftSkills__skillBox">
-                            <div className="icon">
-                                <MdPlayArrow />
-                            </div>
                             <p>Express.js: Building robust and scalable backend APIs.</p>
                         </div>
                     </li>
@@ -63,14 +55,6 @@ function SoftSkills() {
             <div className="SoftSkills__skills">
                 <h2 className="SoftSkills__headingText">Frontend Skills</h2>
                 <ul>
-                    <li>
-                        <div className="SoftSkills__skillBox">
-                            <div className="icon">
-                                <MdPlayArrow />
-                            </div>
-                            <p>React.js: Building dynamic and interactive user interfaces.</p>
-                        </div>
-                    </li>
                     <li>
                         <div className="SoftSkills__skillBox">
                             <div className="icon">
@@ -94,7 +78,14 @@ function SoftSkills() {
                                 <MdPlayArrow />
                             </div>
                             <p>Sass: Efficiently styling with the power of Sass preprocessor.</p>
-
+                        </div>
+                    </li>
+                    <li>
+                        <div className="SoftSkills__skillBox">
+                            <div className="icon">
+                                <MdPlayArrow />
+                            </div>
+                            <p>Tailwind CSS: Building dynamic and interactive user interfaces with utility-first CSS framework.</p>
                         </div>
                     </li>
                     <li>
