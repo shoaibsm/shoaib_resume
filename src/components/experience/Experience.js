@@ -26,7 +26,7 @@ function Experience() {
                         At Cablesmith, I have worked as a Full Stack Developer, significantly contributing to the development of robust and scalable web applications using the MERN stack, alongside my telecom experience.
                     </p>
 
-                    <p className='Experience__jobDescHeading'>Software Development Responsibilities (1.5 years):</p>
+                    <p className='Experience__jobDescHeading'>Software Development Responsibilities (2 years 2 months):</p>
                     <ul className='Experience__jobDesc'>
                         <li>Designed and implemented RESTful APIs using Node.js and Express.js for seamless communication between the frontend and backend.</li>
 
