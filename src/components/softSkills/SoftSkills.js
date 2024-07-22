@@ -7,7 +7,8 @@ function SoftSkills() {
         <div className="SoftSkills">
             <div className="SoftSkills__skills">
                 <h2 className="SoftSkills__headingText">MERN Stack Skills</h2>
-                <ul>
+                <p className='SoftSkills__skillBox'> I am proficient in React.js, building dynamic and interactive user interfaces, and Node.js for server-side JavaScript applications. My experience includes working with MongoDB for flexible and scalable data storage and Express.js for developing robust backend APIs</p>
+                {/* <ul>
                     <li>
                         <div className="SoftSkills__skillBox">
                             <div className="icon">
@@ -41,20 +42,15 @@ function SoftSkills() {
                             <p>Express.js: Building robust and scalable backend APIs.</p>
                         </div>
                     </li>
-                    <li>
-                        <div className="SoftSkills__skillBox">
-                            <div className="icon">
-                                <MdPlayArrow />
-                            </div>
-                            <p>Deployment: Heroku, Netlify for cloud-based application hosting.</p>
-                        </div>
-                    </li>
-                </ul>
+                </ul> */}
             </div>
 
             <div className="SoftSkills__skills">
                 <h2 className="SoftSkills__headingText">Frontend Skills</h2>
-                <ul>
+                <p className='SoftSkills__skillBox'>
+                    I am skilled in HTML5 for semantic markup and CSS3 for responsive design, utilizing Flexbox and Grid. I use Sass for efficient styling and Tailwind CSS for utility-first design, with expertise in JavaScript (ES6+) for modern, modular code.
+                </p>
+                {/* <ul>
                     <li>
                         <div className="SoftSkills__skillBox">
                             <div className="icon">
@@ -97,7 +93,7 @@ function SoftSkills() {
                         </div>
                     </li>
 
-                </ul>
+                </ul> */}
             </div>
         </div>
     )

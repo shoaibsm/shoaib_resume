@@ -29,11 +29,14 @@ function Experience() {
                     <p className='Experience__jobDescHeading'>Software Development Responsibilities (1.5 years):</p>
                     <ul className='Experience__jobDesc'>
                         <li>Designed and implemented RESTful APIs using Node.js and Express.js for seamless communication between the frontend and backend.</li>
+
                         <li>Developed dynamic and responsive user interfaces using React.js, ensuring an optimal user experience across devices.</li>
+
                         <li>Integrated MongoDB databases to store and manage application data efficiently.</li>
+
                         <li>Implemented authentication and authorization mechanisms to enhance the security of the applications.</li>
-                        <li>Optimized application performance and addressed any scalability issues.</li>
-                        <li>Conducted code reviews and provided constructive feedback to maintain code quality and standards.</li>
+
+                        <li>Conducted code reviews and provided constructive feedback to maintain code quality.</li>
                     </ul>
                     <p className='Experience__jobDescHeading'>Key Projects:</p>
                     <ul className='Experience__jobDesc'>
@@ -71,7 +74,7 @@ function Experience() {
                         <p className='Experience__jobProfile'>Network Design | Sep 2017 - March 2021</p>
                     </div>
                     <p className='Experience__jobSummary'>
-                        As an IBS Engineer at Micratel Solutions, I led the optimization of wireless communication systems using iBwave Design software. My role involved planning and implementing in-building solutions, deploying DAS, small cells, and repeaters for precise equipment placement. Leveraging iBwave's simulation tools, I ensured reliable network performance, aligning with Micratel's commitment to robust in-building wireless network design.
+                        As an Network Design Engineer, I desing wireless communication systems using iBwave software. My responsibilities included planning and implementing in-building solutions, deploying DAS. This work aligned with Micratel's commitment to robust in-building wireless network design.
                     </p>
                 </div>
                 <hr className='rule' />
@@ -89,7 +92,7 @@ function Experience() {
                         <p className='Experience__jobProfile'>IBS Engineer | Aug 2015 - Aug 2017</p>
                     </div>
                     <p className='Experience__jobSummary'>
-                        At Vedang Cellular Services, I served as a key IBS Engineer, optimizing wireless communication systems in diverse structures. Specializing in telecommunications, I design and implement wireless solutions, deploying DAS, small cells, and repeaters for enhanced coverage. Known for troubleshooting and maintaining in-building networks seamlessly integrated with outdoor cellular systems, meeting connectivity demands in diverse environments.
+                        At Vedang Cellular Services, I served as an IBS Engineer, optimizing wireless communication systems. Deploying DAS, small cells, and repeaters for enhanced coverage. Known for troubleshooting and maintaining in-building networks. seamlessly integrated with outdoor cellular systems.
                     </p>
                 </div>
             </div>
