@@ -12,7 +12,7 @@ function Resume() {
                 <LeftPart />
                 <RightPart />
                 <Footer />
-                <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://github.com/shoaibsm/shoaib_resume" target="_blank" rel="noopener noreferrer">click here</a></p>
+                {/* <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://github.com/shoaibsm/shoaib_resume" target="_blank" rel="noopener noreferrer">click here</a></p> */}
             </div>
         </section>
     )
